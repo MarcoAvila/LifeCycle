@@ -183,7 +183,7 @@ private boolean canUndo, canRedo;
 
 
     @Override
-	public boolean canUndo()
+    public boolean canUndo()
     {
     return canUndo;
     }
@@ -195,7 +195,7 @@ private boolean canUndo, canRedo;
     
     
     @Override
-	public boolean canRedo()
+    public boolean canRedo()
     {
     return canRedo;
     }
